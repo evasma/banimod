@@ -1,0 +1,80 @@
+.new{
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+}
+.new .center{
+    width: 1172px;
+    height:480px;
+    padding: 50px 10px;
+    font-family: yekan;
+    margin: 0 auto;
+    
+}
+.new .center h4{
+    font-size:26px;
+    font-weight: 500px;
+    padding: 10px;
+    text-align: center;
+    color:#212529;
+}
+.new .center .slider7{
+    width: 100%;
+    height: 260px;
+    padding-top: 5px;
+}
+.new .center .flex7{
+    flex-direction: column !important;
+    width: 260px;
+    height: 255px;
+    position: relative;
+}
+.new .center .flex7 img{
+    width:100%;
+    height:170px;
+    position: absolute;
+    top:0;
+    border-radius: unset;
+}
+.new .center .flex7 .caption7{
+    width:100%;
+    height: 30px;
+    font-size: 15px;
+    color: black;
+    font-weight: 500px;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: absolute;
+    bottom: 20px;
+    padding-right: 5px;
+    transition: 300ms;
+}
+.new .center .flex7 .caption7 p  {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+.new .center .flex7 .caption7:hover{
+    color: #00bf6f;
+}
+.new .center .observe7{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+
+}
+.new .center .observe7 span{
+    border: 1px solid black;
+    border-radius: 28px;
+    padding:10px 80px;
+    font-size: 18px;
+    color: #00bf6f;
+    transition: 300ms;
+}
+.new .center .observe7 span:hover{
+    border: 1px solid #00bf6f;
+    cursor: pointer;
+}

@@ -1,0 +1,487 @@
+
+.watch{
+    width: 100%;
+   height: auto;
+   display: flex;
+}
+.watch .aside{
+    width:20%;
+    height:fit-content;
+    flex-flow: row wrap;
+     justify-content: center;
+}
+.aside .clock{
+    width: 250px;
+    height: 200px;
+    border-bottom: 1px solid lightgray;
+ 
+}
+.aside .clock h2{
+    margin: 0 0 30px;
+     color: orangered;
+     font-family: yekan;
+     font-size: 24px;
+     padding:20px 10px ; 
+ }
+ .aside .clock form{
+    display: flex;
+    width:225px;
+    height: 55px;
+    background-color: #F9F9F9;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.aside .clock form button{
+    height: 100%;
+    width: 20%;
+    font-size: 18px;
+    line-height: 55px;
+    color: gray;
+    border: unset;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.aside .clock form input[type=search]{
+    width: 80%;
+    height: 100%;
+    border: unset;
+    border-radius: 10px;
+    line-height: 55px;
+    outline: unset;
+    background-color: transparent;
+}
+.aside .clock form input[type=search]::placeholder{
+    font-family: yekan;
+    font-size: 12px;
+}
+.aside .clock .filter{
+    width: 100%;
+    height: 60px;
+    font-family: yekan;
+    padding-right:5px;
+    
+}
+.aside .clock .filter span{
+    color: black;
+    font-size: 14px;
+}
+.aside .clock .filter a{
+    color: orangered;
+    font-size: 12px;
+    font-family: yekan;
+    text-decoration: none;
+    transition: 300ms;
+    margin-right:10px ;
+    line-height:60px ;
+}
+.aside .clock .filter a:hover{
+    color: #1AC977;
+}
+.aside .category{
+    width: 250px;
+    height: 230px;
+    border-bottom: 1px solid lightgray;
+    padding: 0;
+}
+.aside .category .sub-category{
+    width: 250px;
+    height: 80%;
+    padding-top: 10px;
+    padding-right: 5px;
+    border-bottom: 1px solid lightgray;
+
+}
+.aside .category .sub-category h4{
+    font-size: 16px;
+    font-family: yekan;
+    color: black;
+    margin: 15px 10px;
+}
+.aside .category .sub-category ul{
+    width: 100%;
+    height: 140px;
+    padding: 5px 15px;
+}
+.aside .category .sub-category ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.aside .category .sub-category ul li a{
+    text-decoration: none;
+    font-family: yekan;
+    color: gray;
+    font-size: 12px;
+    transition: 300ms;
+}
+.aside .category .sub-category ul li:hover a{
+    color: #1AC977;
+}
+.aside .category .available{
+    display: flex;
+    width: 100%;
+    height: 45px;
+}
+.aside .category .available span{
+    font-family: yekan;
+    font-size: 14px;
+    margin-left: 5px;
+    line-height: 45px;
+}
+.aside .category .available .checkbox{
+    width: 40px;
+    height:25px; 
+    margin-top: 10px;
+    position: relative;
+}
+.aside .category .available .checkbox input{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  opacity:0;
+
+}
+.aside .category .available .checkbox .round{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color:lightgrey;
+}
+.aside .category .available .checkbox .round::after{
+    content: "";
+    display: inline-block;
+    width:22px;
+    height:22px;
+    border-radius: 50%; 
+    background-color: #F9F9F9;
+    transition:10s;
+    position: absolute;
+    left:2px;
+    top: 2px;
+    line-height: 25px;
+}
+.aside .category .available .checkbox .round:active::after{
+    left: auto;
+} 
+.aside .category .available .checkbox .round:active{
+    background-color: #1AC977;
+}
+.aside .brand{
+    width: 250px;
+    height: auto;
+}
+.aside .brand h4{
+    font-size: 18px;
+    margin: 15px 10px;
+    font-family: yekan;
+}
+.aside .brand form{
+    display: flex;
+    width: 225px;
+    height:45px;
+    border: 10px;
+    background-color:#F9F9F9; 
+    margin: 0 auto;
+    border-radius: 10px;
+    border: unset;
+}
+.aside .brand form button{
+    width: 45px;
+    height: 100%;
+    line-height: 45px;
+    background-color: transparent;
+    border: unset;
+    color: gray;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.aside .brand form input{
+    width: 180px;
+    height: 100%;
+    background-color: transparent;
+    border: unset;
+    line-height:45px ;
+    font-family: yekan;
+    border-radius: 10px;
+    outline: unset;
+}
+.aside .brand .sub-brand{
+    width: 100%;
+    height:390px;
+    margin-top: 12px;; 
+     position: relative;
+     transition: 300ms;
+     display: flex;
+     overflow: hidden;
+    
+}
+.aside .brand .sub-brand ul{
+     padding-top: 10px;
+    width: 100%;
+    height:100%;
+    overflow: auto;
+    transition: 300ms;
+}
+
+.aside .brand .sub-brand  li{
+    font-family: yekan;
+    font-size: 14px;; 
+    margin-bottom: 20px;
+    list-style: none; 
+}
+.aside .brand .sub-brand  ul li label span{
+    color: gray; 
+}
+.aside .brand .sub-brand  input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    background-color: #F9F9F9;
+    border: 1px solid light gray;
+    margin-bottom: 10px;
+    position: absolute;
+    left: 20px;
+    vertical-align: top;  
+}
+
+.aside .brand .sub-brand .flash {
+    width: 100%;
+    height: 80px;
+    background-color: white;  
+    color: gray;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 5px;
+    position: absolute;
+    bottom: 0;
+    line-height: 80px;
+    border-bottom: 1px solid lightgray;
+}
+
+
+.aside .color{
+    width: 250px;
+    height: 155px;
+    right: 40px;
+    border-bottom: 1px solid lightgray;
+}
+.aside .color h4{
+    margin: 10px 5px;
+    font-family: yekan;
+    font-weight: normal;
+    font-size: 16px;
+}
+.aside .color .sub-color{
+    display: flex;
+    width: 100%;
+    height: 115px;
+    padding: 15px 20px;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 5px 10px;
+}
+.aside .color .sub-color div{
+    position:relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    outline-offset: 3px;
+    outline-style: solid;
+    outline-color: whitesmoke;
+    transition: 300ms;
+}
+.aside .color .sub-color div a{
+    text-decoration: none;
+    
+}
+.aside .color .sub-color div img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+}
+.aside .color .sub-color div span{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: 300ms;
+}
+.aside .color .sub-color div:hover{
+    outline-color: #1AC977;
+}
+.aside .color .sub-color div:hover span{
+    opacity: 1;
+}
+.aside .price{
+    width: 250px;
+    height: 340px;
+     margin: 0 auto;
+    padding-right: 5px;
+}
+.aside .price h4{
+    font-size: 14px;
+    font-weight: normal;
+    font-family: yekan;
+    margin: 10px 5px;
+    margin-bottom: 40px;
+
+}
+.aside .price input[type="rang"]{
+    width: 200px !important;;
+    height:40px !important;
+    margin: 0 auto;
+    margin-right: 20px !important;
+  
+}
+.aside .price span{
+    font-family: yekan;
+    font-size: 14px;
+}
+.aside .price input[type="number"]{
+   width:200px;
+   height: 40px;
+   border-radius: 10px;
+   margin: 10px;
+   text-align: left;
+   padding-left:5px;
+   font-family: yekan;
+   background-color: #F9F9F9;
+   border: 1px solid lightgray;
+}
+.aside .price input[type="submit"]{
+    width:200px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 20px 15px;
+    background-color:#1AC977;
+    border:none;
+    color: #F9F9F9;
+    font-family: yekan;
+    font-size: 14px;
+    
+ }
+ .aside .wowslider{
+    width: 250px;
+    height: 510px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.aside .wowslider .picture{
+    width: 100%;
+    height: 70px;
+}
+.aside .wowslider .picture img{
+    width:80%;
+    height: auto;
+    margin:20px ;
+}
+.aside .wowslider .time{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+}
+.aside .wowslider .time .square{
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    line-height: 30px;
+    background-color: orangered;
+    text-align: center;
+    color: white;
+    font-family: yekan;
+    font-size: 18px;
+    padding-top: 5px;
+}
+.aside .wowslider .time span{
+    color: black;
+    line-height: 50px;
+    font-size: 20px;
+    
+}
+.aside .wowslider .slider{
+    width: 100%;
+    height: 340px;
+    text-align: center;   
+}
+.aside .wowslider .slider .flex{
+    width: 200px;
+    height:340px;
+    position: relative;
+}
+  .aside .wowslider .slider img {
+    display: block;
+    width: 200px;
+    height: 240px;
+    position: absolute;
+    top: 0;
+    right: calc(50% - 200px/2 );
+    object-fit: cover;
+    background-color: #C7C7CF;
+  }
+  .aside .wowslider .slider .caption{
+    width: 200px;
+    height: 95px;
+    position: absolute;
+    bottom: 0;
+    right: calc(50% - 200px/2 );
+  }
+  .aside .wowslider .slider .caption .mark{
+    width: 100%;
+    height: 47px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    text-align: right;
+    font-size: 14px;
+    font-family: yekan;
+    color: gray;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space:nowrap;
+    line-height: 47px;
+    padding-right: 10px;
+  }
+  .aside .wowslider .slider .caption .discount{
+    width: 100%;
+    height: 47px;
+    position: absolute;
+    bottom:0;
+    right: 0;
+   
+  }
+  .aside .wowslider .slider .caption .discount .right{
+  display: inline-block;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right:0;
+    text-align: right;
+    color: gray;
+    font-size: 12px;
+    font-family: yekan;
+    text-decoration: line-through;
+    padding-right: 10px;
+    line-height: 47px;
+  }
+  .aside .wowslider .slider .caption .discount .left{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left:0;
+    color: #1AC977;
+    font-size: 12px;
+    text-align: left;
+    font-family: yekan;
+    line-height: 47px;
+    padding-left: 10px;
+  }

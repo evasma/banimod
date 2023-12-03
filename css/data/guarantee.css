@@ -1,0 +1,73 @@
+.guarantee{
+    width: 100%;
+    height: 400px;
+    padding: 5px;
+}
+.guarantee .center{
+    width: 1127px;
+    height: 290px;
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+.guarantee .center .flex5{
+    height: 270px;
+    width: 290px;
+    transition: 300ms;
+    position: relative;
+    font-family: yekan;
+}  
+.guarantee .center .flex5 .child1{
+    height:100%;
+    width: 100%;
+    background-image: url("../../image/guarantee5.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 85% ; 
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+}
+.guarantee .center .flex5 .child2{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    
+}
+
+.guarantee .center .flex5 .child2 img{
+    width: 100px;
+    height: 98px;
+    margin: 0 auto !important;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 100px /2);
+}
+.guarantee .center .flex5 .child2 .caption2{
+   width: 100%;
+   height: 100px;
+   padding:10px 2px;
+   font-family: yekan;
+   position: absolute;
+   bottom: 0;
+   
+}
+.guarantee .center .flex5 .child2 .caption2 h3{
+    text-align: center;
+    color: #666;
+    font-size: 20px;
+    font-weight: 700px;
+}
+.guarantee .center .flex5 .child2 .caption2 p{
+    color: #666;
+    font-size:12px;
+    font-weight: 500px;
+    text-align: justify;
+    padding-top: 10px;
+}
+.guarantee .center .flex5:hover .child1{
+    opacity:0.5;
+}

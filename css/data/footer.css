@@ -1,0 +1,328 @@
+.footer1{
+    width: 100%;
+    height: 600px;
+    padding: 10px;
+    background-color: #fff;
+    border-top: 5px solid #f9f9f9;
+}
+.footer1 .center{
+    width:1172px;
+    height:580px;
+    margin: 0 auto;
+    font-size: 14px;
+    padding: 10px;
+    position: relative;
+    font-family: yekan;
+}
+.footer1 .center .right{
+   width:560px;
+   height: 310px;
+   position: absolute;
+   right: 0;
+   padding: 5px;
+   display: inline-block;
+   margin-left: 0;
+}
+
+.footer1 .center .right .flex8{
+    width:183px;
+    height:100% ;
+     padding: 10px;
+     text-align: right; 
+}
+.footer1 .center .right .flex8 ul li{
+    padding-top: 15px;
+    padding-right: 20px;
+    color: #212529; 
+    font-size: 12px;
+    list-style: none;
+    font-family: yekan; 
+}
+.footer1 .center .right .flex8 ul li h3{
+    transition: 300ms;
+    padding-bottom: 5px;
+}
+.footer1 .center .right .flex8 ul li h2{
+
+    padding-bottom:20px;
+    color: gray;
+}
+.footer1 .center .right .flex8 ul li:hover h3{
+    color:#1AC977;
+     text-decoration: underline;
+}
+.footer1 .center .left{
+    width:592px;
+    height: 310px;
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    padding:5px;
+}
+.footer1 .center .left .leftright{
+    width: 291px;
+    height:300px;
+   text-align: right;
+    font-family: yekan;
+    font-size:12px;
+    position: absolute;
+    right: 0;  
+
+}
+.footer1 .center .left .leftright  .first{
+    width: 100%;
+    height:105px;
+    position: absolute;
+    top: 0;
+    padding-top: 25px;
+    padding-right: 10px;
+
+}
+.footer1 .center .left .leftright  .first h3{
+    padding-bottom:10px;
+    font-size: 16px;
+    font-weight: 500;
+   
+}
+.footer1 .center .left .leftright  .first span{
+   font-size: 14px;
+
+}
+
+.footer1 .center .left .leftright .second{
+    width: 100%;
+    height: 45px;
+    position: absolute;
+    top:105px;
+    font-size: 14px;
+    padding-right: 10px;
+    padding-top:5px;
+}
+.footer1 .center .left .leftright  .second span{
+    font-size: 17px;
+    font-weight: 500px;
+    transition: 300ms;
+}
+.footer1 .center .left .leftright  .second span:hover{
+    color: #1AC977;
+}
+.footer1 .center .left .leftright  .third{
+    width: 100%;
+    height: 45px;
+    position: absolute;
+    bottom:105px;
+    font-size: 14px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+.footer1 .center .left .leftright  .third span {
+    font-size: 17px;
+    font-weight: 500px;
+    transition: 300ms;
+}
+.footer1 .center .left .leftright  .third span:hover{
+    color: #1AC977;
+}
+.footer1 .center .left  .leftright .bottom{
+    width: 100%;
+    height:105px;
+    position: absolute;
+    bottom: 0;
+    font-size: 14px;
+    padding-right: 10px;
+    padding-top: 5px;
+    text-decoration: none;
+    
+}
+.footer1 .center .left  .leftright .bottom a{
+    font-size: 17px;
+    font-weight: 600px;
+    color: black;
+    text-decoration: none;
+    transition: 300ms;
+}
+.footer1 .center .left  .leftright .bottom a:hover{
+    color: #1AC977;
+    text-decoration: underline;
+}
+.footer1 .center .left .leftleft{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    left: 0;
+}
+.footer1 .center .left .leftleft .logo{
+    width:270px;
+    height:80px ;
+    position: absolute;
+    top: 0; 
+}
+.footer1 .center .left .leftleft .logo img{
+    width: 158px;
+    height: 27px;
+    margin-top: 26px;
+}
+.footer1 .center .left .leftleft .app{
+    width: 270px;
+    height:70px;
+    position: absolute;
+    top:80px ;
+   text-align: center;
+   text-decoration: none;
+   
+
+}
+.footer1 .center .left .leftleft .app a{
+    padding: 8px 40px;
+    border: 1px solid #1AC977;
+    border-radius: 28px;
+    color: #1AC977;
+    line-height: 70px;
+    text-decoration: none;
+    font-family:yekan ;
+    font-size: 14px;
+    transition: 300ms;
+}
+.footer1 .center .left .leftleft .app a:hover{
+    color: #009657;
+}
+.footer1 .center .left .leftleft .social{
+    width: 270px;
+    height: 65px;
+    position: absolute;
+    top:150px ;
+    padding-top: 11px;
+    text-align: center;
+}
+.footer1 .center .left .leftleft .social a{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-right: 10px;
+    padding: 10px;
+    line-height: 25px;
+    transition: 300ms;
+}
+.footer1 .center .left .leftleft .social a i{
+    font-size: 25px;
+    color: black;
+    transition: 300ms;
+}
+
+
+.footer1 .center .left .leftleft .social a:hover{
+   border: 1px solid #1AC977;
+ 
+}
+.footer1 .center .left .leftleft .social i:hover {
+    color:#1AC977;
+}
+
+.footer1 .center .left .leftleft .magazine{
+    width: 270px;
+    height:85px;
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    padding-right: 30px;
+}
+.footer1 .center .left .leftleft .magazine a{
+    display: block;
+}
+.footer1 .center .left .leftleft .magazine img{
+    width: 140px;
+    height: 35px;
+}
+
+.footer1 .center .downright{
+    width:670px ;
+    height:190px;
+    position: absolute;
+    bottom:60px;
+    right:0;
+    padding: 5px;
+    text-align: justify;
+    display: inline-block;
+    font-family: yekan;
+
+}
+.footer1 .center .downright h2{
+    font-size: 16px;
+    color:gray;
+    font-weight: 500;
+    margin-top: 25px;
+}
+.footer1 .center .downright p{
+    font-size: 14px;
+    color: #888;
+    line-height: 32px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.footer1 .center .downright  span{
+    color: black;
+    transition: 300ms;
+}
+.footer1 .center .downright  span:hover{
+    color: #1AC977;
+    text-decoration: underline;
+}
+.footer1 .center .downright #more{
+    color: #1AC977;
+
+}
+
+
+.footer1 .center .downleft{
+    width:500px ;
+    height: 190px;
+    position: absolute;
+    bottom: 60px;
+    left:0;
+    display: inline-block;
+    padding-top: 40px;
+    padding-right: 15px;
+    text-align: center;
+  
+}
+.footer1 .center .downleft img{
+    width: 90px;
+    height: 77px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.footer1 .center .under{
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+ }
+  .footer1 .center .under .persian{
+    display: inline-block;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    text-align: right;
+    font-size: 12px;
+    font-family: yekan;
+    padding-top: 30px;
+ }
+  .footer1 .center .under .english{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 30px;
+ }
+
+

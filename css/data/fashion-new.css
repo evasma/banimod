@@ -1,0 +1,293 @@
+.fashion-new{
+    height: 650px;
+    width: 100%;
+    padding: 20px;
+   
+}
+.fashion-new .center{
+    width: 1172px;
+    height: 610px;
+    margin: 0 auto;
+    position: relative;
+  
+}
+.fashion-new .center .title{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-family: yekan;
+    font-size: 26px;
+    line-height: 50px;
+    position: absolute;
+    top: 0;
+   
+}
+.fashion-new .center .slider{
+    height: 490px;
+    width: 100%;
+    padding-top: 10px;
+    position: absolute;
+    top: 50px;
+    padding: 5px 20px;
+   
+}
+.fashion-new .center .slider .flex{
+    width: 260px;
+    height: 480px;
+    flex-direction: column;
+    position: relative;
+    
+}
+.fashion-new .center .slider .flex .picture{
+    width: 100%;
+    height: 310px;
+    position: absolute;
+    top: 0;
+}
+.fashion-new .center .slider .flex .picture img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    right: 0; 
+    background-color:#F4F4F4;
+    border-radius: 8px;
+}
+.fashion-new .center .slider .flex .picture::before{
+    content: attr(data-discount);
+    display: block;
+    width: 50px;
+    height: 30px;
+    border-radius:0 30px 30px 0;
+    background-color: #F16423;
+    color: whitesmoke;
+    position: absolute;
+    left:0;
+    top: 20px;
+    line-height: 30px;
+    text-align: center;
+    z-index: 10;
+    font-family: yekan;
+    font-size: 15px;
+}
+.fashion-new .center .slider .flex .picture .heart{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-color:white;
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+    transition: 300ms;
+   display: none;
+    z-index: 10;
+}
+.fashion-new .center .slider .flex .picture .eye{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: 100px;
+    background-color:white;
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+    transition: 300ms;
+    display: none;
+    z-index: 10;
+}
+.fashion-new .center .slider .flex .picture .color{
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+} 
+.fashion-new .center .slider .flex .picture .color img{
+    display: inline-block; 
+    width: 40px;
+    height: 45px; 
+    margin-top: 7px; 
+    line-height: 60px;
+    position: unset;
+    border-radius: 8px;
+    transition: 300ms;
+    display: none;
+}
+
+.fashion-new .center .slider .flex .caption{
+    width: 100%;
+    height: 170px;
+    position: absolute;
+    bottom: 0;
+}
+.fashion-new .center .slider .flex .caption .first{
+  width: 100%;
+  height: 42px;
+  position: absolute;
+  top: 0;
+  
+}
+.fashion-new .center .slider .flex .caption .first .brand{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+   text-align: right;
+   font-size: 20px;
+  line-height: 42px;
+  color: black;
+  font-weight:500;
+
+}
+.fashion-new .center .slider .flex .caption .first .discount{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+   text-align: left;
+   font-size: 14px;
+  line-height: 42px;
+  color: gray;
+  font-family: yekan;
+  text-decoration: line-through;
+
+}
+
+.fashion-new .center .slider .flex .caption .price{
+  width: 100%;
+  height: 42px;
+  line-height: 42px;
+  position: absolute;
+  top: 42px;
+ 
+}
+
+.fashion-new .center .slider .flex .caption .price .right{
+ display: inline-block;
+ width: 50%;
+ height: 100%;
+ position: absolute;
+ right: 0;
+ text-align: right;
+ padding: 5px;
+ font-size: 14px;
+ font-family: yekan;
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+
+}
+.fashion-new .center .slider .flex .caption .price .right a{
+    text-decoration: none;
+    color:#666;
+}
+
+.fashion-new .center .slider .flex .caption .price .left{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    text-align: left;
+    padding-left: 5px;
+    font-size: 14px;
+    font-family: yekan;
+    color:#1AC67E;
+   
+   }
+.fashion-new .center .slider .flex .caption .size{
+ width: 100%;
+ height: 43px;
+ position: absolute;
+ bottom: 42px;
+ text-align: right;
+ padding-right: 5px;
+ line-height: 43px;
+ font-size: 12px;
+ font-family: yekan;
+ color: #323232;
+
+}
+.fashion-new .center .slider .flex .caption .size span{
+    border: 1px solid gray;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.fashion-new .center .slider .flex .caption .delivery{
+  width: 100%;
+  height: 42px;
+  position: absolute;
+  bottom: 0;
+  text-align: right;
+  padding-right: 5px;
+  font-family: yekan;
+  color: gray;
+  line-height: 42px;
+  font-size: 12px;
+}
+.fashion-new .center .slider .flex .caption .delivery img{
+    display: inline-block;
+    width: 33px;
+    height: 21px;
+    border-radius: unset;
+    vertical-align: middle;
+    margin-top:10px ;
+}
+.fashion-new .center .slider .flex .caption .delivery span{
+    margin-right: 40px;
+}
+.fashion-new .center .slider .flex:hover{
+    cursor: pointer;
+}
+.fashion-new .center .slider .flex:hover .fade{
+    opacity: 0;
+}
+.fashion-new .center .slider .flex:hover .eye{
+    display: block;
+}
+.fashion-new .center .slider .flex:hover .color img{
+    display: unset;
+}
+.fashion-new .center .slider .flex .color img:hover{
+    border: 2px solid #1AC67E;
+}
+.fashion-new .center .slider .flex:hover .heart{
+    display: block;
+}
+.fashion-new .center .slider .flex .eye:hover{
+    color: #1AC67E;
+}
+.fashion-new .center .slider .flex .heart:hover{
+    color: #1AC67E;
+}
+.fashion-new .center .observe{
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+  position: absolute;
+  bottom: 0;
+
+}
+.fashion-new .center .observe span{
+    font-family: yekan;
+    font-size: 20px;
+    border-radius: 28px;
+    padding: 10px 60px;
+    color: #1AC67E;
+    transition: 300ms;
+    border:1px solid lightgray;
+}
+.fashion-new .center .observe span:hover{
+    border: 1px solid #1AC67E;
+    cursor: pointer;
+}

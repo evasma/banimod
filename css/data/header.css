@@ -1,0 +1,1380 @@
+
+header{
+    width: 100%;
+    height: 195px;
+    box-shadow: 0 1px 5px lightgray;    
+}
+header .top{
+    width: inherit;
+    height: 60px;
+}
+header .top a{
+    text-decoration: none;
+}
+header .top a img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+header .bottom{
+    width: inherit;
+    height: calc(195px - 60px);
+   
+   
+}
+header .bottom .upbottom{
+    width: inherit;
+    height: 90px; 
+
+}
+header .bottom .upbottom .center{
+    width:1172px;
+    height: inherit;
+    margin: 0 auto;
+ 
+} 
+header .bottom .upbottom .center .login{
+    width:250px ;
+    height:inherit;
+    padding-top: 25px;
+     padding-right: 35px;
+    display: inline-block;
+    
+}
+header .bottom .upbottom .center .login .bag{
+    text-decoration: none;
+    margin: 5px 10px;
+    display: inline-block;
+    transition: 300ms;
+    color: black;
+}
+header .bottom .upbottom .center .login .bag:hover{
+    color: #00BF70 ;
+}
+
+header .bottom .upbottom .center .login i{
+    font-size: 30px;
+}
+header .bottom .upbottom .center .login .register{
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+    background-color: #00BF70;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    font-family: yekan;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 25px;
+    color: whitesmoke;
+    vertical-align: top;
+    transition: 300ms;
+    padding: 2px;
+}
+header .bottom .upbottom .center .login .register:hover{
+    background-color:#047d4a;
+}
+header .bottom .upbottom .center .search{
+    width:660px;
+    height: inherit;
+    display:inline-block;
+    vertical-align: top;
+    margin-right:-4px;
+    padding-right: 10px;
+}
+header .bottom .upbottom .center .search .box{
+    width: 565px;
+    height: 55px;
+    border-radius:30px ;
+    background-color:#f5f5f5 ;
+    margin-top: 17px;
+    position: relative;
+}
+header .bottom .upbottom .center .search .box button{
+    width: 55px;
+    height: 100%;
+    font-size: 30px;
+   display: inline-block;
+   position: absolute;
+   right: 0;
+   border-radius:30px ;
+   border: unset;
+   background-color: transparent; 
+} 
+
+header .bottom .upbottom .center .search .box input[type=search] { 
+    display: inline-block;
+    width: 510px;
+    height:100%;
+    position: absolute;
+    left: 0;
+    border:0;
+    padding-right: 10px;
+    border-radius: 30px;
+    background-color: transparent;  
+    outline: none;
+}
+header .bottom .upbottom .center .search input[type=search]::placeholder{
+    font-family: yekan;
+    color: gray;
+}
+  
+header .bottom .upbottom .center .logo{
+    display: inline-block;
+    height:inherit;
+    vertical-align: top;
+    margin-right: -4px;
+    padding-right: 10px;
+}
+header .bottom .upbottom .center .logo svg{
+    margin-top: 24px;
+}
+header .bottom .menu1{
+    width: 100%;
+    height: 45px;
+
+}
+header .bottom .menu1 nav{
+    width: 1172px;
+    height: inherit;
+    margin: 0 auto;
+    position: relative;
+}
+
+header .bottom .menu1 nav div{
+    display: inline-block;
+    width: fit-content;
+    height: inherit;
+    margin: 0 5px;
+    vertical-align:top;
+    position: relative;
+    transition: 300ms;
+    padding: 5px 10px;
+}
+header .bottom .menu1 nav div a{
+    display: block;
+    width: auto;
+    height: inherit;
+    text-decoration: none;
+    color: #2b2b2b;
+    font-family: yekan;
+    line-height: 45px;
+    font-size: 12px;
+}
+header .bottom .menu1 nav div a i{
+    margin: 0 10px;
+    font-size: 17px;
+    vertical-align: middle;
+}
+
+header .bottom .menu1 nav div .solid{
+    vertical-align: top;
+}
+
+header .bottom .menu1 nav div .solid span{
+    font-size: 14px;
+}
+
+header .bottom .menu1 nav div .wall  {   
+    display: inline-block;
+    width: 2px;
+    background-color:#bcbec0;
+    height: 14px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+header .bottom .menu1 nav .greenline::after{
+    content:"";
+    width:100%;
+    height: 2px;
+    background-color: #00bf6f;
+    bottom: 0;
+    right:0;
+    transition: 300ms;
+    position: absolute;
+  transform: scale(0,0);
+}
+header .bottom .menu1 nav .greenline{
+    transition: 300ms;
+    right: 0;
+}
+header .bottom .menu1 nav .greenline:hover::after{
+    transform: scale(1,1);
+    transform-origin: center;
+
+}
+
+header .bottom .menu1 nav div .submenu{
+    width:calc(100vw - 200px);
+    height: 80vh;
+    position: absolute;
+    top:46px;
+    right:-5px;
+    z-index:50;
+   box-shadow:0 5px 25px gray;
+   border-radius:0 0 8px 8px;
+   transition: 300ms;
+   position: absolute;
+   padding: 0;
+   display: none;
+   background-color: #f5f5f5; 
+}
+
+header .bottom .menu1 nav div .submenu .right {
+    width:17%;
+    height: 80vh;
+    font-family: yekan;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    overflow:auto;
+    position: static;
+    
+}
+header .bottom .menu1 nav div .submenu .right div{
+    height:50px;
+    width:100%;
+    margin-right: 0;
+    padding:0;
+    transition: 300ms;
+    display:block;
+    margin-bottom: 5px;
+    position: static;
+}
+
+header .bottom .menu1 nav div .submenu .right div a{
+    display: block;
+    font-size: 12px;
+    font-family: yekan;
+    transition: 300ms;
+    line-height: 50px;  
+    padding-right: 10px;
+}
+
+header .bottom .menu1 nav div .submenu .right div svg{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+header .bottom .menu1 nav div:hover .submenu{
+    display: block;
+}
+
+header .bottom .menu1 nav div:hover .submenu:hover{
+    cursor: pointer;
+}
+
+header .bottom .menu1 nav div .submenu .right div:hover a{
+    color: #00bf6f;
+    fill: #00bf6f;
+    background-color: lightgrey;
+}
+header .bottom .menu1 nav div .submenu .right div .sub2menu{
+   width:83%;
+   height: 80vh;
+    top: 0;
+   left:15px;
+   position: absolute;
+   margin: 0;
+   display: none;
+   transition:300ms;
+   font-family: yekan;
+   padding-right: 25px;
+   
+}
+header .bottom .menu1 nav div .submenu .right div:hover .sub2menu{
+    display: block !important;   
+}
+
+.active{
+ display: block;
+ transition: 300ms;
+}
+
+header .bottom .menu1 nav div .submenu .right div .sub2menu h3{
+    font-size: 16px;
+    margin-bottom:25px!important ;
+    transition: 300ms;
+}
+header .bottom .menu1 nav div .submenu .right div .sub2menu h4{
+    font-size: 14px;
+    border-right: 2px solid #00bf6f;
+    margin-bottom: 15px;
+    padding-right: 5px;
+    transition: 300ms;
+}
+header .bottom .menu1 nav div .submenu .right div .sub2menu #culture{
+    display: inline-block;
+    margin-left:300px;
+}
+header .bottom .menu1 nav div .submenu .right div .sub2menu h4:hover{
+   color: #00bf6f;
+}
+header .bottom .menu1 nav div .submenu .right div .sub2menu h4:hover i{
+    color: black;
+}
+header .bottom .menu1 nav div .submenu .right div .sub2menu h3:hover{
+    color: #00bf6f;
+}
+header .bottom .menu1 nav div .submenu .right div .sub2menu h3:hover i{
+    color: black;
+}
+header .bottom .menu1 nav div .submenu .right div .sub3menu{
+    width:83%;
+    height: 80vh;
+     top: 0;
+     padding-right: 25px;
+     left: 15px;
+    position: absolute;
+    background-color:light;
+    margin: 0;
+    display: none;
+    transition: 300ms;
+    font-family: yekan;
+    text-align: right;   
+ }
+ header .bottom .menu1 nav div .submenu .right div .sub3menu h3{
+    font-size: 16px;
+    margin:25px 0!important ;
+    transition: 300ms;
+}
+header .bottom .menu1 nav div .submenu .right div .sub3menu h4{
+    font-size: 14px;
+    border-right: 2px solid #00bf6f;
+    margin-bottom: 15px;
+    
+    padding-right: 5px;
+    transition: 300ms;
+}
+header .bottom .menu1 nav div .submenu .right div .sub3menu h5{
+   font-size:10px ;
+   margin-bottom: 10px;
+   color: #2b2b2b;
+   transition: 300ms;
+}
+
+ header .bottom .menu1 nav div .submenu .right div:hover .sub3menu{
+    display: unset;
+
+ }
+
+header .bottom .menu1 nav div .submenu .right div .sub3menu h4:hover{
+   color: #00bf6f;
+}
+header .bottom .menu1 nav div .submenu .right div .sub3menu h5:hover{
+    color: #00bf6f;
+}
+header .bottom .menu1 nav div .submenu .right div .sub3menu h4:hover i{
+    color: black;
+}
+header .bottom .menu1 nav div .submenu .right div .sub3menu h3:hover{
+    color: #00bf6f;
+}
+header .bottom .menu1 nav div .submenu .right div .sub3menu h3:hover i{
+    color: black;
+}
+
+
+header .bottom .menu1 nav div .submenu .right div .sub4menu {
+    width:83%;
+    height: 80vh;
+    top: 0;
+    padding-right:20px;
+    left: 15px;
+    position: absolute;
+    margin: 0;
+    transition: 300ms;
+    font-family: yekan;
+    text-align: right;
+    display: none;
+    padding-top: 10px;
+
+}
+header .bottom .menu1 nav div .submenu .right div .sub4menu .column{
+    width: 13%;
+    height: 100%;
+  
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    
+}
+header .bottom .menu1 nav div .submenu .right div .sub4menu .picture{
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+}
+header .bottom .menu1 nav div .submenu .right div .sub4menu .picture span{
+   margin-top: 10px;
+   
+}
+header .bottom .menu1 nav div .submenu .right div .sub4menu .picture img{
+    width: 211px;
+    height: 138px;
+    margin: 10px auto;
+}
+header .bottom .menu1 nav div .submenu .right div .sub4menu .picture .brand{
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    text-align: center;
+}
+header .bottom .menu1 nav div .submenu .right div .sub4menu .picture .brand img{
+    display: inline-block;
+    width: 40%;
+    height: auto;
+    margin-top: 15px;
+}
+header .bottom .menu1 nav div .submenu .right div .sub4menu h3{
+    font-size: 12px;
+    font-family: yekan;
+    margin:25px 0!important ;
+    transition: 300ms;
+    border-right: 2px solid #00bf6f;
+    padding-right: 2px;
+}
+header .bottom .menu1 nav div .submenu .right div .sub4menu h4{
+    font-size: 10px;
+   font-family: yekan;
+    margin-bottom: 15px;
+    padding-right: 5px;
+    transition: 300ms;
+    color: gray;
+}
+
+
+ header .bottom .menu1 nav div .submenu .right div:hover .sub4menu{
+    display: unset;
+
+ }
+
+header .bottom .menu1 nav div .submenu .right div .sub4menu h4:hover{
+   color: #00bf6f;
+}
+
+header .bottom .menu1 nav div .submenu .right div .sub4menu h4:hover i{
+    color: black;
+}
+header .bottom .menu1 nav div .submenu .right div .sub4menu h3:hover{
+    color: #00bf6f;
+}
+header .bottom .menu1 nav div .submenu .right div .sub4menu h3:hover i{
+    color: black;
+}
+header .bottom .menu1 nav div .submenu .right div .sub5menu {
+    width:83%;
+    height: 80vh;
+    top: 0;
+   padding-right:20px;
+    left: 15px;
+    position: absolute;
+    margin: 0;
+    transition: 300ms;
+    font-family: yekan;
+    text-align: right;
+    display: none;
+    padding-top: 10px;
+
+}
+header .bottom .menu1 nav div .submenu .right div .sub5menu .column{
+    width: 14%;
+    height: 100%;
+  
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    
+}
+header .bottom .menu1 nav div .submenu .right div .sub5menu .picture{
+    width: 25%;
+    height: 100%;
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+}
+header .bottom .menu1 nav div .submenu .right div .sub5menu .picture span{
+   margin-top: 10px;
+   
+}
+header .bottom .menu1 nav div .submenu .right div .sub5menu .picture img{
+    width: 211px;
+    height: 138px;
+    margin: 10px auto;
+}
+header .bottom .menu1 nav div .submenu .right div .sub5menu .picture .brand{
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    text-align: center;
+}
+header .bottom .menu1 nav div .submenu .right div .sub5menu .picture .brand img{
+    display: inline-block;
+    width: 40%;
+    height: auto;
+    margin-top: 15px;
+}
+header .bottom .menu1 nav div .submenu .right div .sub5menu h3{
+    font-size: 12px;
+    font-family: yekan;
+    margin:25px 0!important ;
+    transition: 300ms;
+    border-right: 2px solid #00bf6f;
+    padding-right: 2px;
+}
+header .bottom .menu1 nav div .submenu .right div .sub5menu h4{
+    font-size: 10px;
+   font-family: yekan;
+    margin-bottom: 15px;
+    padding-right: 5px;
+    transition: 300ms;
+    color: gray;
+}
+
+ header .bottom .menu1 nav div .submenu .right div:hover .sub5menu{
+    display: unset;
+ }
+
+header .bottom .menu1 nav div .submenu .right div .sub5menu h4:hover{
+   color: #00bf6f;
+}
+
+header .bottom .menu1 nav div .submenu .right div .sub5menu h4:hover i{
+    color: black;
+}
+header .bottom .menu1 nav div .submenu .right div .sub5menu h3:hover{
+    color: #00bf6f;
+}
+header .bottom .menu1 nav div .submenu .right div .sub5menu h3:hover i{
+    color: black;
+}
+
+header .bottom .menu1 nav div .submenu .right div .sub6menu {
+    width:83%;
+    height: 80vh;
+    top: 0;
+    padding-right:20px;
+    left: 15px;
+    position: absolute;
+    margin: 0;
+    transition: 300ms;
+    font-family: yekan;
+    text-align: right;
+    display: none;
+}
+header .bottom .menu1 nav div .submenu .right div .sub6menu .column{
+    width: 14%;
+    height: 100%; 
+    display: inline-block;
+    margin: 0;
+    padding: 0;  
+}
+header .bottom .menu1 nav div .submenu .right div .sub6menu .picture{
+    width: 25%;
+    height: 100%;
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+}
+header .bottom .menu1 nav div .submenu .right div .sub6menu .picture span{
+   margin-top: 10px;
+   
+}
+header .bottom .menu1 nav div .submenu .right div .sub6menu .picture img{
+    width: 211px;
+    height: 138px;
+    margin: 10px auto;
+}
+header .bottom .menu1 nav div .submenu .right div .sub6menu .picture .brand{
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    text-align: center;
+}
+header .bottom .menu1 nav div .submenu .right div .sub6menu .picture .brand img{
+    display: inline-block;
+    width: 40%;
+    height: auto;
+    margin-top: 15px;
+}
+header .bottom .menu1 nav div .submenu .right div .sub6menu h3{
+    font-size: 12px;
+    font-family: yekan;
+    margin:25px 0!important ;
+    transition: 300ms;
+    border-right: 2px solid #00bf6f;
+    padding-right: 2px;
+}
+header .bottom .menu1 nav div .submenu .right div .sub6menu h4{
+    font-size: 10px;
+   font-family: yekan;
+    margin-bottom: 15px;
+    padding-right: 5px;
+    transition: 300ms;
+    color: gray;
+}
+
+ header .bottom .menu1 nav div .submenu .right div:hover .sub6menu{
+    display: unset;
+ }
+
+header .bottom .menu1 nav div .submenu .right div .sub6menu h4:hover{
+   color: #00bf6f;
+}
+
+header .bottom .menu1 nav div .submenu .right div .sub6menu h4:hover i{
+    color: black;
+}
+header .bottom .menu1 nav div .submenu .right div .sub6menu h3:hover{
+    color: #00bf6f;
+}
+header .bottom .menu1 nav div .submenu .right div .sub6menu h3:hover i{
+    color: black;
+}
+header .bottom .menu1 nav div .submenu .right div .sub7menu {
+    width:83%;
+    height: 80vh;
+    top: 0;
+    padding-right:20px;
+    left: 15px;
+    position: absolute;
+    margin: 0;
+    transition: 300ms;
+    font-family: yekan;
+    text-align: right;
+    display: none;
+    padding-top: 10px;
+
+}
+header .bottom .menu1 nav div .submenu .right div .sub7menu .column7{
+    width:20%;
+    height: 100%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    
+}
+header .bottom .menu1 nav div .submenu .right div .sub7menu .picture{
+    width: 35%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+}
+header .bottom .menu1 nav div .submenu .right div .sub7menu .picture span{
+   margin-top: 10px;
+   display: block;
+   
+}
+header .bottom .menu1 nav div .submenu .right div .sub7menu .picture img{
+    width: 211px;
+    height: 138px;
+    margin:0 auto;
+}
+header .bottom .menu1 nav div .submenu .right div .sub7menu .picture .brand{
+    width: 100%;
+    height: 100px;
+    margin-bottom:5px;
+    text-align: center;
+   margin-top: 10px;
+}
+header .bottom .menu1 nav div .submenu .right div .sub7menu .picture .brand img{
+    display: inline-block;
+    width: 40%;
+    height: auto;
+    margin-bottom: 5px;
+}
+header .bottom .menu1 nav div .submenu .right div .sub7menu h3{
+    font-size: 12px;
+    font-family: yekan;
+    margin:25px 0!important ;
+    transition: 300ms;
+    border-right: 2px solid #00bf6f;
+    padding-right: 2px;
+}
+header .bottom .menu1 nav div .submenu .right div .sub7menu h4{
+    font-size: 10px;
+   font-family: yekan;
+    margin-bottom: 15px;
+    padding-right: 5px;
+    transition: 300ms;
+    color: gray;
+}
+
+ header .bottom .menu1 nav div .submenu .right div:hover .sub7menu{
+    display: unset;
+ }
+
+header .bottom .menu1 nav div .submenu .right div .sub7menu h4:hover{
+   color: #00bf6f;
+}
+
+header .bottom .menu1 nav div .submenu .right div .sub7menu h4:hover i{
+    color: black;
+}
+header .bottom .menu1 nav div .submenu .right div .sub7menu h3:hover{
+    color: #00bf6f;
+}
+header .bottom .menu1 nav div .submenu .right div .sub7menu h3:hover i{
+    color: black;
+}
+header .bottom .menu1 nav div .submenu .right div .sub8menu {
+    width:83%;
+    height: 80vh;
+    top: 0;
+    padding-right:20px;
+    left: 15px;
+    position: absolute;
+    margin: 0;
+    transition: 300ms;
+    font-family: yekan;
+    text-align: right;
+    display: none;
+    padding-top: 10px;
+}
+header .bottom .menu1 nav div .submenu .right div .sub8menu .column8{
+    width:30%;
+    height: 100%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    
+}
+header .bottom .menu1 nav div .submenu .right div .sub8menu .picture{
+    width:30%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+}
+header .bottom .menu1 nav div .submenu .right div .sub8menu .picture span{
+   margin-top: 10px;
+   display: block;
+   
+}
+header .bottom .menu1 nav div .submenu .right div .sub8menu .picture img{
+    width: 211px;
+    height: 138px;
+    margin:0 auto;
+}
+
+header .bottom .menu1 nav div .submenu .right div .sub8menu h3{
+    font-size: 12px;
+    font-family: yekan;
+    margin:25px 0!important ;
+    transition: 300ms;
+    border-right: 2px solid #00bf6f;
+    padding-right: 2px;
+}
+header .bottom .menu1 nav div .submenu .right div .sub8menu h4{
+    font-size: 10px;
+   font-family: yekan;
+    margin-bottom: 15px;
+    padding-right: 5px;
+    transition: 300ms;
+    color: gray;
+}
+
+ header .bottom .menu1 nav div .submenu .right div:hover .sub8menu{
+    display: unset;
+ }
+
+header .bottom .menu1 nav div .submenu .right div .sub8menu h4:hover{
+   color: #00bf6f;
+}
+
+header .bottom .menu1 nav div .submenu .right div .sub8menu h4:hover i{
+    color: black;
+}
+header .bottom .menu1 nav div .submenu .right div .sub8menu h3:hover{
+    color: #00bf6f;
+}
+header .bottom .menu1 nav div .submenu .right div .sub8menu h3:hover i{
+    color: black;
+}
+header .bottom .menu1 nav div .submenu .right div .sub9menu {
+    width:83%;
+    height: 80vh;
+    top: 0;
+    padding-right:20px;
+    left: 15px;
+    position: absolute;
+    margin: 0;
+    transition: 300ms;
+    font-family: yekan;
+    text-align: right;
+    display: none;
+    padding-top: 10px;
+}
+header .bottom .menu1 nav div .submenu .right div .sub9menu h3{
+    font-size: 12px;
+    font-family: yekan;
+    margin:25px 0!important ;
+    transition: 300ms;
+    border-right: 2px solid #00bf6f;
+    padding-right: 2px;
+}
+header .bottom .menu1 nav div .submenu .right div:hover .sub9menu{
+    display: unset;
+ }
+header .bottom .menu1 nav div .submenu .right div .sub9menu h3:hover{
+    color: #00bf6f;
+}
+header .bottom .menu1 nav div .submenu .right div .sub9menu h3:hover i{
+    color: black;
+}
+header .bottom .menu1 nav div .submenu .right div .sub10menu {
+    width:83%;
+    height: 80vh;
+    top: 0;
+    padding-right:20px;
+    left: 15px;
+    position: absolute;
+    margin: 0;
+    transition: 300ms;
+    font-family: yekan;
+    text-align: right;
+    display: none;
+    padding-top: 10px;
+}
+header .bottom .menu1 nav div .submenu .right div .sub10menu .column10{
+    width:20%;
+    height: 100%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    
+}
+header .bottom .menu1 nav div .submenu .right div .sub10menu .picture{
+    width:30%;
+    height: 100%;
+    display: inline-block;
+   position: absolute;
+   left: 0;
+   text-align: left;
+}
+
+header .bottom .menu1 nav div .submenu .right div .su108menu .picture img{
+    width: 211px;
+    height: 138px;
+    margin-right:auto;
+    margin-bottom: 10px;
+    display: block;
+}
+
+header .bottom .menu1 nav div .submenu .right div .sub10menu h3{
+    font-size: 12px;
+    font-family: yekan;
+    margin:25px 0!important ;
+    transition: 300ms;
+    border-right: 2px solid #00bf6f;
+    padding-right: 2px;
+}
+header .bottom .menu1 nav div .submenu .right div .sub10menu h4{
+    font-size: 10px;
+   font-family: yekan;
+    margin-bottom: 15px;
+    padding-right: 5px;
+    transition: 300ms;
+    color: gray;
+}
+
+ header .bottom .menu1 nav div .submenu .right div:hover .sub10menu{
+    display: unset;
+ }
+
+header .bottom .menu1 nav div .submenu .right div .sub10menu h4:hover{
+   color: #00bf6f;
+}
+
+header .bottom .menu1 nav div .submenu .right div .sub10menu h4:hover i{
+    color: black;
+}
+header .bottom .menu1 nav div .submenu .right div .sub10menu h3:hover{
+    color: #00bf6f;
+}
+header .bottom .menu1 nav div .submenu .right div .sub10menu h3:hover i{
+    color: black;
+}
+header .bottom .menu1 nav div .submenu .right div .sub11menu {
+width:83%;
+height: 80vh;
+top: 0;
+padding-right:20px;
+ left: 15px;
+position: absolute;
+margin: 0;
+transition: 300ms;
+font-family: yekan;
+text-align: right;
+display: none;
+padding-top: 10px;
+}
+header .bottom .menu1 nav div .submenu .right div .sub11menu .column11{
+width:40%;
+height: 100%;
+display: inline-block;
+margin: 0;
+padding: 0;
+text-align: right;
+
+}
+header .bottom .menu1 nav div .submenu .right div .sub11menu .picture{
+width:50%;
+height: 100%;
+display: inline-block;
+position: absolute;
+left: 0;
+}
+
+header .bottom .menu1 nav div .submenu .right div .sub11menu .picture img{
+width: 211px;
+height: 138px;
+margin-right:auto;
+margin-bottom: 10px;
+display: block;
+}
+
+header .bottom .menu1 nav div .submenu .right div .sub11menu h3{
+font-size: 12px;
+font-family: yekan;
+margin:25px 0!important ;
+transition: 300ms;
+border-right: 2px solid #00bf6f;
+padding-right: 2px;
+}
+header .bottom .menu1 nav div .submenu .right div .sub11menu h4{
+font-size: 10px;
+font-family: yekan;
+margin-bottom: 15px;
+padding-right: 5px;
+transition: 300ms;
+color: gray;
+}
+
+header .bottom .menu1 nav div .submenu .right div:hover .sub11menu{
+display: unset;
+}
+
+header .bottom .menu1 nav div .submenu .right div .sub11menu h4:hover{
+color: #00bf6f;
+}
+
+header .bottom .menu1 nav div .submenu .right div .sub11menu h4:hover i{
+color: black;
+}
+header .bottom .menu1 nav div .submenu .right div .sub11menu h3:hover{
+color: #00bf6f;
+}
+header .bottom .menu1 nav div .submenu .right div .sub11menu h3:hover i{
+color: black;
+}
+
+header .bottom .menu1 nav div .submenu .right div .sub12menu {
+    width:83%;
+    height: 80vh;
+    top: 0;
+    padding-right:20px;
+    left: 15px;
+    position: absolute;
+    margin: 0;
+    transition: 300ms;
+    font-family: yekan;
+    text-align: right;
+    display: none;
+    padding-top: 10px;  
+    }
+    header .bottom .menu1 nav div .submenu .right div .sub12menu .column12{
+    width:40%;
+    height: 100%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    
+    }
+    header .bottom .menu1 nav div .submenu .right div .sub12menu .picture{
+    width:50%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    }
+    
+    header .bottom .menu1 nav div .submenu .right div .sub12menu .picture img{
+    width: 211px;
+    height: 138px;
+    margin-right:auto;
+    margin-bottom: 10px;
+    display: block;
+    }
+    
+    header .bottom .menu1 nav div .submenu .right div .sub12menu h3{
+    font-size: 12px;
+    font-family: yekan;
+    margin:25px 0!important ;
+    transition: 300ms;
+    border-right: 2px solid #00bf6f;
+    padding-right: 2px;
+    }
+    header .bottom .menu1 nav div .submenu .right div .sub12menu h4{
+    font-size: 10px;
+    font-family: yekan;
+    margin-bottom: 15px;
+    padding-right: 5px;
+    transition: 300ms;
+    color: gray;
+    }
+    
+    header .bottom .menu1 nav div .submenu .right div:hover .sub12menu{
+    display: unset;
+    }
+    
+    header .bottom .menu1 nav div .submenu .right div .sub12menu h4:hover{
+    color: #00bf6f;
+    }
+    
+    header .bottom .menu1 nav div .submenu .right div .sub12menu h4:hover i{
+    color: black;
+    }
+    header .bottom .menu1 nav div .submenu .right div .sub12menu h3:hover{
+    color: #00bf6f;
+    }
+    header .bottom .menu1 nav div .submenu .right div .sub12menu h3:hover i{
+    color: black;
+    }
+    header .bottom .menu1 nav div .submenu .right div .sub13menu {
+        width:83%;
+        height: 80vh;
+        top: 0;
+        padding-right:20px;
+        left: 15px;
+        position: absolute;
+        margin: 0;
+        transition: 300ms;
+        font-family: yekan;
+        text-align: right;
+        display: none;
+        padding-top: 10px;  
+        }
+        header .bottom .menu1 nav div .submenu .right div .sub13menu .column13{
+        width:40%;
+        height: 100%;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        text-align: right;
+        
+        }
+        header .bottom .menu1 nav div .submenu .right div .sub13menu .picture{
+        width:50%;
+        height: 100%;
+        display: inline-block;
+          position: absolute;
+          left: 0;
+        }
+        
+        header .bottom .menu1 nav div .submenu .right div .sub13menu .picture img{
+        display: block;
+        width: 211px;
+        height: 138px;
+        margin-right:auto;
+        margin-bottom: 10px;
+        
+        }
+        
+        header .bottom .menu1 nav div .submenu .right div .sub13menu h3{
+        font-size: 12px;
+        font-family: yekan;
+        margin:25px 0!important ;
+        transition: 300ms;
+        border-right: 2px solid #00bf6f;
+        padding-right: 2px;
+        }
+        header .bottom .menu1 nav div .submenu .right div .sub13menu h4{
+        font-size: 10px;
+        font-family: yekan;
+        margin-bottom: 15px;
+        padding-right: 5px;
+        transition: 300ms;
+        color: gray;
+        }
+        
+        header .bottom .menu1 nav div .submenu .right div:hover .sub13menu{
+        display: unset;
+        }
+        
+        header .bottom .menu1 nav div .submenu .right div .sub13menu h4:hover{
+        color: #00bf6f;
+        }
+        
+        header .bottom .menu1 nav div .submenu .right div .sub13menu h4:hover i{
+        color: black;
+        }
+        header .bottom .menu1 nav div .submenu .right div .sub13menu h3:hover{
+        color: #00bf6f;
+        }
+        header .bottom .menu1 nav div .submenu .right div .sub13menu h3:hover i{
+        color: black;
+        }
+        header .bottom .menu1 nav div .submenu .right div .sub14menu {
+            width:83%;
+            height: 80vh;
+            top: 0;
+            padding-right:20px;
+            left: 15px;
+            position: absolute;
+            margin: 0;
+            transition: 300ms;
+            font-family: yekan;
+            text-align: right;
+            display: none;
+            padding-top: 10px;
+            }
+            header .bottom .menu1 nav div .submenu .right div .sub14menu .column14{
+            width:40%;
+            height: 100%;
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            text-align: right;
+            
+            }
+            header .bottom .menu1 nav div .submenu .right div .sub14menu .picture{
+            width:50%;
+            height: 100%;
+            display: inline-block;
+            position: absolute;
+            left: 0;
+            }
+            
+            header .bottom .menu1 nav div .submenu .right div .sub14menu .picture img{
+            display: block;
+            width: 211px;
+            height: 138px;
+            margin-right:auto;
+            margin-bottom: 10px;
+            }
+            
+            header .bottom .menu1 nav div .submenu .right div .sub14menu h3{
+            font-size: 12px;
+            font-family: yekan;
+            margin:25px 0!important ;
+            transition: 300ms;
+            border-right: 2px solid #00bf6f;
+            padding-right: 2px;
+            }
+            header .bottom .menu1 nav div .submenu .right div .sub14menu h4{
+            font-size: 10px;
+            font-family: yekan;
+            margin-bottom: 15px;
+            padding-right: 5px;
+            transition: 300ms;
+            color: gray;
+            }
+            
+            header .bottom .menu1 nav div .submenu .right div:hover .sub14menu{
+            display: unset;
+            }
+            
+            header .bottom .menu1 nav div .submenu .right div .sub14menu h4:hover{
+            color: #00bf6f;
+            }
+            
+            header .bottom .menu1 nav div .submenu .right div .sub14menu h4:hover i{
+            color: black;
+            }
+            header .bottom .menu1 nav div .submenu .right div .sub14menu h3:hover{
+            color: #00bf6f;
+            }
+            header .bottom .menu1 nav div .submenu .right div .sub14menu h3:hover i{
+            color: black;
+            }
+
+
+header .bottom .menu1 nav div .sub-brand{
+    position: absolute;
+    width:440px;
+    height: 80vh;
+    top:46px;
+    right: -5px;
+    box-shadow: 0 5px 25px gray;
+    border-radius:0 0 8px 8px;
+    background-color:white;
+    display: none;
+    transition: 300ms;   
+    overflow: hidden;
+    z-index: 50;
+}
+
+header .bottom .menu1 nav div .sub-brand .right{
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: inline-block;
+    overflow: auto;
+    padding-right: 20px;
+    margin: 0;
+    font-family: yekan;
+    text-align: right;
+    background-color: transparent;
+   
+    
+}
+header .bottom .menu1 nav div .sub-brand .right h3{
+    color: #2b2b2b;
+    padding-right:10px;
+    font-size:14px;
+    transition: 300ms;
+    margin-top: 0;
+
+}
+header .bottom .menu1 nav div .sub-brand .right .wall2{
+    width: 2px;
+    height: 15px;
+    margin-left: 10px;
+   background-color: #00bf6f;
+    display: inline-block;
+    vertical-align: middle;
+}
+header .bottom .menu1 nav div .sub-brand .right h4{
+    font-size: 12px;
+    color: #6d6e71;
+    margin-top: 20px;
+    margin-right: 20px;
+    transition: 300ms;
+}
+header .bottom .menu1 nav div:hover .sub-brand{
+    display: block;
+}
+
+header .bottom .menu1 nav div .sub-brand .right h3:hover{
+ color:#00bf6f;
+ cursor: pointer;
+}
+header .bottom .menu1 nav div .sub-brand .right h4:hover{
+    color: #00bf6f;
+    cursor: pointer;
+}
+header .bottom .menu1 nav div .sub-brand .left{
+    width:55%;
+    height: 100%;
+    text-align: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display:inline-block;
+    margin: 0;
+    overflow:scroll;
+}
+header .bottom .menu1 nav div .sub-brand .left h3{
+    text-align: right;
+    font-size: 14px;
+    font-family: yekan;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+header .bottom .menu1 nav div .sub-brand .left i{
+    vertical-align:bottom;
+}
+
+header .bottom .menu1 nav div .sub-brand .left img{
+    width: 222px;
+    height: 45px;
+    margin-top: 25px;
+    border-radius: 5px;
+    border: unset;
+}
+header .bottom .menu1 nav div .sub-sale{
+    position: absolute;
+    top: 46px;
+    right:-5px;
+    background-color: white;
+    width: 250px;
+    height:200px;
+    display: block;
+    font-family: yekan;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 5px 25px lightgray;
+    display: none;
+    transition: 300ms;
+    overflow: hidden;
+    z-index: 50;
+   
+}
+
+header .bottom .menu1 nav div .sub-sale .first{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    margin: 0;
+    padding-right: 35px;
+    text-align: right;
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+}
+
+header .bottom .menu1 nav div .sub-sale .second{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 51px;
+    right: 0;
+    margin: 0;
+    text-align: right;
+    color:#6d6e71;
+    font-size: 12px;
+   
+}
+header .bottom .menu1 nav div .sub-sale .third{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 101px;
+    right: 0;
+    margin: 0;
+    text-align: right;
+    color: #6d6e71;
+    font-size: 12px;
+}
+header .bottom .menu1 nav div .sub-sale .bottom{
+    width: 100%;
+    height:50px;
+    position: absolute;
+   bottom:0;
+   right: 0;
+   margin: 0;
+   text-align: right;
+   color: #6d6e71;
+   font-size: 12px;
+   
+}
+header .bottom .menu1 nav div .sub-sale i{
+    font-size: 8px;
+    color: #00bf6f;
+}
+header .bottom .menu1 nav div .sub-sale a{
+    transition: 300ms;
+}
+header .bottom .menu1 nav div:hover .sub-sale::after{
+    right: 0;
+}
+header .bottom .menu1 nav div .sub-sale a:hover{
+    color: #00bf6f;
+}
+header .bottom .menu1 nav div:hover .sub-sale{
+    display: block;
+}
+
+
+
+
+
+

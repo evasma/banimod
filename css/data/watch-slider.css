@@ -1,0 +1,205 @@
+.watch{
+    width: 100%;
+   height: auto;
+   display: flex;
+}
+.watch .main{
+    width:80%;
+    height: auto;
+    margin-right: auto;
+}
+.main .watch-slider{
+    width:100%;
+    height: auto;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+    margin: 0;
+    padding-right: 10px;
+    gap: 15px 20px;
+    
+}
+ .main .watch-slider .slider{
+    width: 255px;
+    height: 450px;
+    transition: 300ms;
+   
+}
+ .main .watch-slider .slider .picture{
+    width: 100%;
+    height: 325px;
+    position: relative;   
+}
+.main  .watch-slider .slider .picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    border-radius: 10px;
+    background-color: #f5f5f5;;
+}
+.main  .watch-slider .slider .picture span{
+    transition: 300ms;
+}
+.main  .watch-slider .slider .picture::before{
+    content: attr(data-discount);
+    display: block;
+    width: 70px;
+    height: 40px;
+    border-radius:0 30px 30px 0;
+    background-color: #F16423;
+    color: whitesmoke;
+    position: absolute;
+    left:0;
+    top: 30px;
+    line-height: 40px;
+    text-align: center;
+    z-index: 10;
+    font-family: yekan;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main  .watch-slider .slider .picture .invisable{
+    display: flex;
+    width:200px;
+    height: 40px;
+    position: absolute; 
+    right: 0;
+    top: 30px;
+    z-index: 12;
+    background-color: transparent;
+    
+}
+
+.main  .watch-slider .slider .picture .invisable .baniclub{
+    display: flex;
+    width:200px;
+    height: 40px;
+    position: absolute; 
+    right: 0;
+    background-color:whitesmoke;
+   border: 1px solid #F16423;
+   border-right: unset;
+   border-radius: 20px 0 0 20px;
+    right: 0;
+    display: none;
+   transition: 300ms;
+}
+.main  .watch-slider .slider .picture .invisable .baniclub img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;  
+    margin-top: 5px;
+    line-height: 40px;
+}
+.main  .watch-slider .slider .picture .invisable .baniclub .text{
+    width: 170px;
+    height: 100%;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(249, 175, 35);
+    font-family: yekan;
+    line-height: 40px;
+}
+
+.main  .watch-slider .slider .picture .invisable .coin {
+    width:200px;
+    height: 40px;
+    position: absolute; 
+    right: 0;
+    background-color:transparent;
+    transition: 300ms ;
+}
+.main  .watch-slider .slider .picture .invisable .coin img{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    line-height: 40px;
+   
+}
+.main  .watch-slider .slider .picture .coin:hover{
+    opacity: 0;
+}
+
+.main  .watch-slider .slider .picture .invisable:hover .baniclub{
+ display: unset;
+}
+
+.main  .watch-slider .slider .caption{
+    width: 100%;
+    height: 125px;
+  
+}
+.main  .watch-slider .slider .caption .brand{
+    width: 100%;
+    height: 41px;
+    display: flex;
+}
+.main  .watch-slider .slider .caption .brand .right{
+    width: 50%;
+    height: 100%;
+    font-size: 22px;
+    font-weight: 600px;
+    padding-right: 5px;
+    text-align: right;
+    line-height: 41px;
+}
+.main  .watch-slider .slider .caption .brand .left{
+    width: 50%;
+    height: 100%;
+    font-size: 12px;
+    padding-left: 5px;
+    font-family: yekan;
+    color: gray;
+    text-align: left;
+    text-decoration: line-through;
+    line-height: 41px;
+}
+.main  .watch-slider .slider .caption .price{
+    width: 100%;
+    height: 41px;
+    display: flex;
+}
+.main  .watch-slider .slider .caption .price .gray{
+    width: 50%;
+    height: 100%;
+    font-size: 14px;
+    color: gray;
+    padding-right: 5px;
+    text-align: right;
+    line-height: 41px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: yekan;
+}
+.main  .watch-slider .slider .caption .price .green{
+    width: 50%;
+    height: 100%;
+    font-size: 14px;
+    padding-left: 5px;
+    font-family: yekan;
+    color:#1AC977;
+    text-align: left;
+    text-decoration: line-through;
+    line-height: 41px;
+}
+.main  .watch-slider .slider .caption .size{
+    width: 100%;
+    height: 41px;
+    display: flex;
+}
+.main  .watch-slider .slider .caption .size span{
+    padding: 5px;
+    border-radius:8px;
+    border: 1px solid lightgray; 
+    font-size: 12px;
+    font-family: yekan;
+}
+.main  .watch-slider .slider:hover{
+    cursor: pointer;
+}
+.main  .watch-slider .slider .picture span:hover{
+    opacity: 0;
+}

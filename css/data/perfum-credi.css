@@ -1,0 +1,75 @@
+.perfum-credit{
+    width: 100%;
+    height:500px;
+    padding: 20px;
+}
+.perfum-credit .center{
+    width: 1172px;
+    height: 460px;
+    margin: 0 auto;
+    position: relative;
+   
+}
+.perfum-credit .center .top{
+    width: 100%;
+    height: 260px;
+    text-align: right;
+    padding-top: 45px;
+    position: absolute;
+
+}
+.perfum-credit .center .top .right{
+    width:540px;
+    height:170px;
+    display: inline-block;
+    position: absolute;
+    right:0;
+    border-radius: 28px 28px 0 0;
+    text-align: center;
+}
+
+.perfum-credit .center .top .left{
+    width:540px;
+    height: 170px;
+    display: inline-block;
+    position: absolute;
+    left:0;
+    border-radius: 28px 28px 0 0;
+    text-align: center;
+}
+.perfum-credit .center .top img{
+    display: inline-block;
+    width: 90%;
+    height:100%;
+    border-radius: 28px 28px 0 0;
+    line-height:260px ;
+    transition: 300ms;
+    
+}
+.perfum-credit .center .top img:hover{
+    transform: scale(1.1,1.1);
+}
+.perfum-credit .center .down{
+    width: 100%;
+    height:200px ;
+    padding-top: 26px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+.perfum-credit .center .down .card{
+    width:100%;
+    height: 145px;
+    border-radius: 28px;
+    background-color:#2DB575;
+    margin: 0 auto;
+    
+}
+.perfum-credit .center .down .card img{
+    width: 90%;
+    height:90%;
+    transition: 300ms;
+}
+.perfum-credit .center .down .card:hover img{
+    transform: scale(1.1,1.1);
+}
